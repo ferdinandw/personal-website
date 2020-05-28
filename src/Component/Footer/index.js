@@ -20,23 +20,6 @@ const Footer = () => {
             <a href="https://www.facebook.com/ferdinand.w.ng" target="_blank">
                 <FaFacebookF size={30} className="mr-4" style={{color : "black"}}/>
             </a>
-
-            <a href="https://twitter.com/" target="_blank">
-                <FaTwitter size={30}className="mr-4" style={{color : "black"}}/>
-            </a>
-
-            <a href="https://www.youtube.com" target="_blank">
-                <FaYoutube size={30}className="mr-4" style={{color : "black"}} />
-            </a>
-
-            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-                <FaGooglePlusG size={30}className="mr-4" style={{color : "black"}}/>
-            </a>
-            <a href="" target="_blank">
-                <FaWhatsapp size={30}className="mr-4" style={{color : "black"}}/>
-            </a>
-
-
             <a href="https://github.com/ferdinandw/" target="_blank">
                 <FaGithubSquare size={30}className="mr-4" style={{color : "black"}}/>
             </a>

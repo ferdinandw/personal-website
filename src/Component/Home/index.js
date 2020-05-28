@@ -15,11 +15,11 @@ const Home = () => {
            <div class="jumbotron card card-image" style={{backgroundColor : 'black'  }}>
                 <div class="text-white text-center py-5 px-4">
                     <div>
-                    <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Lorem Ipsum dolor Sit amet</strong></h2>
-                    <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+                    <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Welcome to my Personal Website</strong></h2>
+                    <p class="mx-5 mb-5"> My name is Ferdinand William, you can read more detailed information about me below.
+                    </p><p>You can see the project that i made by clicking below
                     </p>
-                    <a class="btn btn-outline-light btn-md"><i class="fas fa-clone left"></i> View project</a>
+                    <a class="btn btn-outline-light btn-md" href="https://tri-shop.netlify.app/" target="_blank"><i class="fas fa-clone left"></i> View project</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Home = () => {
                         My name is Ferdinand, i am a Full Stack Developer from Glints Academy x ImpactByte #6.
                         </p>
                         <p>
-                        I'm 19 years old and currently studying at University of International Batam on the 2nd semester. 
+                        I'm 19 years old and currently studying at University of International Batam on the 2nd semester. I like to read some guide and play games on my free time, i always explore to learn something new.  
                         </p>
                     </div>
                 </div>
@@ -47,6 +47,14 @@ const Home = () => {
                     <h3 className="h3">Portfolio</h3>
                     <hr className="hr"/>
                 </div>
+                <div className="d-flex justify-content-center">
+                <div className="col-md-6">
+                    <h2>Trishop</h2>
+                    <p>Trishop is an E-Commerce website that my team made, current features are Sign up, Sign in, Cart, Create an Item to Sell</p>
+                    <p>Check it out here : <a href="https://tri-shop.netlify.app/" target="_blank">https://tri-shop.netlify.app/</a></p>
+                </div>
+                </div>
+                
             </section>
             <section>
 
@@ -61,7 +69,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2 pl-3">
                             <h5 class="feature-title font-bold mb-1">HTML5</h5>
-                            <p class="grey-text mt-2">Hypertext Markup Language.
+                            <p class="grey-text mt-2">9 / 10
                             </p>
                         </div>
                         </div>
@@ -73,7 +81,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2">
                             <h5 class="feature-title font-bold mb-1">CSS</h5>
-                            <p class="grey-text mt-2">Cascading Style Sheets.
+                            <p class="grey-text mt-2">7 / 10
                             </p>
                         </div>
                     </div>
@@ -86,7 +94,7 @@ const Home = () => {
                     </div>
                     <div class="col-10 mb-2">
                         <h5 class="feature-title font-bold mb-1">Bootstrap</h5>
-                        <p class="grey-text mt-2">CSS Framework.
+                        <p class="grey-text mt-2">7 / 10
                         </p>
                     </div>
                     </div>
@@ -98,7 +106,7 @@ const Home = () => {
                     </div>
                     <div class="col-10 mb-2">
                         <h5 class="feature-title font-bold mb-1">Javascript</h5>
-                        <p class="grey-text mt-2">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+                        <p class="grey-text mt-2"> 7 / 10
                         
                         </p>
                     </div>
@@ -116,7 +124,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2">
                             <h5 class="feature-title font-bold mb-1">Express</h5>
-                            <p class="grey-text mt-2">Lorem ipsum dolor sit amet.</p>
+                            <p class="grey-text mt-2">7 / 10</p>
                         </div>
                         </div>
                     </div>
@@ -128,7 +136,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2">
                             <h5 class="feature-title font-bold mb-1">MongoDB</h5>
-                            <p class="grey-text mt-2">MongoDB Database 
+                            <p class="grey-text mt-2">7 / 10
                             </p>
                         </div>
                         </div>
@@ -141,7 +149,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2">
                             <h5 class="feature-title font-bold mb-1">ReactJS</h5>
-                            <p class="grey-text mt-2">React is an open-source JavaScript library for building user interfaces..</p>
+                            <p class="grey-text mt-2">8 / 10</p>
                         </div>
                         </div>
                     </div>
@@ -154,7 +162,7 @@ const Home = () => {
                         </div>
                         <div class="col-10 mb-2">
                             <h5 class="feature-title font-bold mb-1">NodeJS</h5>
-                            <p class="grey-text mt-2">Lorem Ipsum dolor sit amet.</p>
+                            <p class="grey-text mt-2">7 / 10</p>
                         </div>
                     </div>
                 </div>
