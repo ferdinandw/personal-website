@@ -1,6 +1,14 @@
 import React from 'react'
 import bg from './../Img/bg.jpg'
-
+import {
+    FaCss3,
+    FaHtml5,
+    FaBootstrap,
+    FaJs,
+    FaReact,
+    FaNodeJs
+} from 'react-icons/fa'
+import {DiMongodb,DiJavascript1} from 'react-icons/di'
 const Home = () => {
     return(
         <div className="container-fluid">
@@ -40,6 +48,118 @@ const Home = () => {
                     <hr className="hr"/>
                 </div>
             </section>
+            <section>
+
+                <h2 class="my-5 h3 text-center">My Skills</h2>
+                <hr/>
+                <div class="row features-small mt-5">
+
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                            <FaHtml5 size={60}/>
+                        </div>
+                        <div class="col-10 mb-2 pl-3">
+                            <h5 class="feature-title font-bold mb-1">HTML5</h5>
+                            <p class="grey-text mt-2">Hypertext Markup Language.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                            <FaCss3 size={60}/>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h5 class="feature-title font-bold mb-1">CSS</h5>
+                            <p class="grey-text mt-2">Cascading Style Sheets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6">
+                    <div class="row">
+                    <div class="col-2">
+                        <FaBootstrap size={60} style={{color: "purple"}}/>
+                    </div>
+                    <div class="col-10 mb-2">
+                        <h5 class="feature-title font-bold mb-1">Bootstrap</h5>
+                        <p class="grey-text mt-2">CSS Framework.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="row">
+                    <div class="col-2">
+                        <FaJs size={60}/>
+                    </div>
+                    <div class="col-10 mb-2">
+                        <h5 class="feature-title font-bold mb-1">Javascript</h5>
+                        <p class="grey-text mt-2">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.
+                        
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="row features-small mt-4 wow fadeIn">
+
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                            <DiJavascript1 size={60} style={{color: "black"}}/>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h5 class="feature-title font-bold mb-1">Express</h5>
+                            <p class="grey-text mt-2">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                           <DiMongodb size={60} style={{color: "green"}}/>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h5 class="feature-title font-bold mb-1">MongoDB</h5>
+                            <p class="grey-text mt-2">MongoDB Database 
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                            <FaReact size={60} style={{color : "blue"}}/>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h5 class="feature-title font-bold mb-1">ReactJS</h5>
+                            <p class="grey-text mt-2">React is an open-source JavaScript library for building user interfaces..</p>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="row">
+                        <div class="col-2">
+                            <FaNodeJs size={60}/>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <h5 class="feature-title font-bold mb-1">NodeJS</h5>
+                            <p class="grey-text mt-2">Lorem Ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
     )
 }

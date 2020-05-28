@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa'
 const Footer = () => {
     return(
-        <footer class="page-footer text-center font-small mt-4 container-fluid" style={{color:"black"}}>
+        <footer class="page-footer text-center font-small mt-4 container-fluid" style={{color:"black"}} id="contact">
 
             <div class="pt-4 my-4">
             Find Me On Here : 
